@@ -608,7 +608,7 @@ public class HangmanGame extends JFrame implements ActionListener{
             }
         }
 
-        if(typed.equals("EASY")) {
+        if(typed.equals("EASY..")) {
             try {
                 Thread.sleep(50); //스레드, 5초뒤에 시작
             }catch(InterruptedException e) {
@@ -619,7 +619,7 @@ public class HangmanGame extends JFrame implements ActionListener{
             level = 0;
             repaint();
         }
-        if(typed.equals("HARD")) {
+        if(typed.equals("HARD..")) {
             try {
                 Thread.sleep(50); //스레드, 5초뒤에 시작
             }catch(InterruptedException e) {
